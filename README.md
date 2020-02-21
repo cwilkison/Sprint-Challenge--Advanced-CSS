@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A fully responsive design will use the same layout for all types of devices; cellphones, computers, tablets
+by scaling automatically when the screen size changes.
+While an adaptive design tweaks the design to fit better for different devices.  You can do things
+like move links around, remove/add pictures, redesign content layout.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile First: Build a website for mobile viewing first and then scale up using media queries to make it viewable for larger devices.
+
+Desktop First:  Build a site for desktop first and then scale down for tablet, phone, etc.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets the standard viewing font size to 10px, it is 62.5% of 16px.  16px is the default fontsize value for most browsers.  When using rems it allows the user to easily scale the font up/down to the size of the page by values of 10...for example 1.6rem is 1.6*(standard view font 10px) = 16px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A preprocess in CSS is a program that allows for extra syntax to be used which makes the coding process easier.  For example.  CSS preprocesser LESS allows users to encorporate ideas such as mixins, variables and imports that
+make writing and typing code easier on the user.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is using mixins because it says time and makes adjustments easier as you only have to change the variables in the mixin.less and not in the css global/general css area which takes more time.
+Also I enjoy using the seperate .less files for each section of my CSS codes as it organizes everything better.
+The concept giving me the most trouble would be nesting.  I can nest but am not very good at nesting into multiple
+layers/multiple children.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
